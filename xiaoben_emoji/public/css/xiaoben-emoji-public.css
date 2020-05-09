@@ -1,0 +1,36 @@
+/**
+ * @package    Xiaoben_Emoji
+ * @subpackage Xiaoben_Emoji
+ * @author     小笨
+ */
+.mce-toolbar .mce-i-xiaoben_emoji_button {
+    background-color: green;
+    background: url(../image/btn/btn.jpg);
+    background-size: 100% 100%;
+}
+
+.mce-xiaoben .xiaoben-emoji-list {
+    width: 300px;
+    height: 200px;
+    padding: 6px;
+    overflow-y: auto;
+}
+.mce-xiaoben .xiaoben-emoji-list > ul{
+    margin: 0px;
+}
+.mce-xiaoben .xiaoben-emoji-list > ul > li {
+    display: inline;
+
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 2px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.mce-xiaoben .xiaoben-emoji-list > ul > li img {
+    max-height: 40px;
+    max-width: 40px;
+    display: inline-block;
+}
